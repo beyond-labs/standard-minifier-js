@@ -1,7 +1,7 @@
 Package.describe({
-  name: 'abernix:standard-minifier-js',
+  name: 'xwilders:standard-minifier-js',
   version: '1.3.4',
-  summary: 'Standard javascript minifiers used with Meteor apps by default.',
+  summary: 'Standard javascript minifiers used with Meteor apps by default - with tailored mangling.',
   documentation: 'README.md'
 });
 
