@@ -29,7 +29,8 @@ UglifyJSMinifier.prototype.processFilesForBundle = function (files, options) {
       drop_debugger: false,
       unused: false,
       dead_code: false
-    }
+    },
+    mangle: false
   };
 
   function maybeThrowMinifyErrorBySourceFile(error, file) {
